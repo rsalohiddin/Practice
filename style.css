@@ -6,14 +6,18 @@
 body {
     background-color: aqua;
 }
+.container{
+    margin: 150px 250px;
+}
 
 .row {
     display: flex;
+    border-top-left-radius: 15px;
 }
 
 .row__col {
-    width: 180px;
-    height: 500px;
+    width: 300px;
+    height: 450px;
     background-color: black;
-    border: 3px solid aqua;
+    border: 3px solid red;
 }
